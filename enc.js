@@ -3,7 +3,7 @@ fs = require('fs')
 
 efiles = []
 
-fs.readdir("./gentle-cliffs-18201", function(err, items) {
+fs.readdir("./folder_path", function(err, items) {
     console.log(items);
 
     for (var i=0; i<items.length; i++) {
